@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Bigshot+One&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+
+:root {
+    --primary-color: #000000;
+    --secondary-color: #9c7945;
+    --accent1-color: #65030e;
+    --accent2-color: #e1d28f;
+  
+    --heading-font: "Rancho", serif;
+    --paragraph-font: "Bigshot One", serif;
+  
+    --headline-color-on-white: #000000;  /* headlines on a white background */ 
+    --headline-color-on-color: #9c7945; /* headlines on a colored background */ 
+    --paragraph-color-on-white: #000000; /* paragraph text on a white background */ 
+    --paragraph-color-on-color: #9c7945; /* paragraph text on a colored background */ 
+    --paragraph-background-color: #000000 ;
+    --nav-link-color: #9c7945;
+    --nav-background-color: #000000;
+    --nav-hover-link-color: #e1d28f;
+    --nav-hover-background-color: #65030e;
+  }
+  
+  
+  
+  body {
+    max-width: 1800px;
+    margin: 0 auto;
+    font-size: 2em;
+    text-align: center;
+    font-family: var(--heading-font);
+  }
+
+/*----- Navigation Section -----*/
+#top-logo {
+    width: 15%;
+}
+  #logo {
+    max-width: 100%;
+    padding: .5em 0 .5em 0;
+    margin: 0;
+  }
+
+  ul {
+    background-color: var(--nav-background-color);
+    line-height: 2em;
+    text-align: center;
+    font-size: 1.2em;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+  }
+
+  nav a {
+    padding: .4em;
+    text-decoration: none;
+  }
+
+  nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+  }
+
+  nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+  }
+
+
+  /*----- Main Section -----*/
+  img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  footer {
+    background-color: var(--nav-background-color);
+    line-height: 2em;
+    text-align: center;
+    font-size: 1.2em;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+
+  /*------ Footer Section ------ */
+  footer a {
+    padding: 1em;
+    min-width: 120px;
+    text-decoration: none;
+  }
+
+  footer a:link, footer a:visited {
+    color: var(--nav-link-color);
+  }
+
+  footer a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+  }
